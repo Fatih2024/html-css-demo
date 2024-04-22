@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #eee9fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 700px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 200px);
+    gap: 15px;
+}
+
+.grid-item {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.daniel {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #9b68ed;
+}
+
+.jonathan {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #8f8f8f;
+}
+
+.kira {
+    grid-column-start: 4;
+    grid-column-end: -1;
+    grid-row-start: 1;
+    grid-row-end: -1;
+    background-color: #e6e3e3;
+}
+
+.jeanette {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: -1;
+    background-color: white;
+}
+
+.patrick {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: -1;
+    background-color: #dab9b9;
+}
+
+.profil-bild {
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border-radius: 50%;
+    border: 2px solid orange;
+}
+
+.name {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.position {
+    font-size: 10px;
+}
+
+.titel {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.beschreibung {
+    font-size: 12px;
+}
+
+.person {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
