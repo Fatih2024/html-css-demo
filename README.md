@@ -1,1 +1,1 @@
-https://munzewerfen.netlify.app/
+https://htmlcssdeneme.netlify.app/
